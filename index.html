@@ -14,7 +14,13 @@
       type="text/css"
     />
 
-    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+    <!-- <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" /> -->
+    <link
+      rel="preload"
+      href="css/materialdesignicons.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
 
     <!-- LOCAL -->
     <link rel="stylesheet" href="style/style.css" />
@@ -445,14 +451,14 @@
                 </div>
               </a> -->
               <div class="blog-wrap waypoint" data-animation="fade-in">
-                <img src="./img/JIRA.png" alt="jira-logo" />
+                <img src="./img/JIRA.jpg" alt="jira-logo" />
               </div>
               <div
                 class="blog-wrap waypoint"
                 data-animation="fade-in"
                 data-delay=".2s"
               >
-                <img src="./img/figma.png" alt="figma-logo" />
+                <img src="./img/figma.jpg" alt="figma-logo" />
               </div>
 
               <div
@@ -460,14 +466,14 @@
                 data-animation="fade-in"
                 data-delay=".6s"
               >
-                <img src="./img/avocode.png" alt="avocode-logo" />
+                <img src="./img/avocode.jpg" alt="avocode-logo" />
               </div>
               <div
                 class="blog-wrap waypoint"
                 data-animation="fade-in"
                 data-delay=".5s"
               >
-                <img src="./img/optimizely.png" alt="optimizely-logo" />
+                <img src="./img/optimizely.jpg" alt="optimizely-logo" />
               </div>
 
               <div
@@ -475,21 +481,21 @@
                 data-animation="fade-in"
                 data-delay=".3s"
               >
-                <img src="./img/git.png" alt="git-logo" />
+                <img src="./img/git.jpg" alt="git-logo" />
               </div>
               <div
                 class="blog-wrap waypoint"
                 data-animation="fade-in"
                 data-delay=".8s"
               >
-                <img src="./img/postman-logo.png" alt="postman-logo" />
+                <img src="./img/postman-logo.jpg" alt="postman-logo" />
               </div>
               <div
                 class="blog-wrap waypoint"
                 data-animation="fade-in"
                 data-delay=".9s"
               >
-                <img src="./img/wordpress.png" alt="wordpress-logo" />
+                <img src="./img/wordpress.jpg" alt="wordpress-logo" />
               </div>
 
               <!-- <a
@@ -666,7 +672,7 @@
       </footer>
     </div>
 
-    <div id="preload">
+    <!-- <div id="preload">
       <img src="img/me.jpg" />
       <img src="img/avocode.png" />
       <img src="img/carrefour-1.png" />
@@ -708,7 +714,7 @@
       <img src="img/slides/tours-0.png" />
       <img src="img/slides/tours-1.png" />
       <img src="img/slides/tours-2.png" />
-    </div>
+    </div> -->
     <script src="scripts/canvas.js"></script>
   </body>
 </html>

@@ -723,28 +723,28 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../img/slides/realtor-0.png") center center/cover;
+  background: url("../img/slides/realtor-0.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("../img/tours-3.png") center center/cover;
+  background: url("../img/tours-0.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("../img/forkify-2.png") center center/cover;
+  background: url("../img/forkify-2.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("../img/reactFood-0.png") center center/cover;
+  background: url("../img/reactFood-0.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("../img/getallresources-2.png") center center/cover;
+  background: url("../img/getallresources-2.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/myprefectcv-1.png") center center/cover;
+  background: url("../img/myprefectcv-1.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("../img/livecarrer-1.png") center center/cover;
+  background: url("../img/livecarrer-1.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url("../img/carrefour-1.png") center center/cover;
+  background: url("../img/carrefour-1.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
   background: url("../img/thumb-9.jpg") center center/cover;
